@@ -1,0 +1,185 @@
+@media screen and (min-width: 320px) and (max-width:539px){
+    html,body{
+        /* font-size: 2px; */font-size: 6px;
+        background: #CDCDCD;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:568px){
+    html,body{
+        /* font-size: 2px; */font-size: 6px;
+        background: #CDCDCD;
+    }
+}
+@media screen and (min-width: 375px) and (max-width:667px){
+    html,body{
+        font-size: 2.34375px;
+        background: #CDCDCD;
+    }
+}
+@media screen and (min-width:650px) and (max-width:1920px){
+    html,body{
+        font-size: 12px;
+        background: #CDCDCD;
+    }
+}
+@media screen and (min-width:1921px){
+    html,body{
+        font-size: 16px;
+        background: #CDCDCD;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h2{
+    margin: 2rem 0;
+    position: relative;
+    font-size: 24px;
+}
+
+.content div{
+    margin-bottom: 20px;
+}
+
+span{
+    position: absolute;
+    top: 2.4px;
+    right: 6px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #E6E6FA;
+    color: #666;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(47,47,47,0.98);
+}
+
+.center{
+    width: 80rem;
+    margin: 0 auto;
+}
+
+.head{
+    position: relative;
+    width: 80rem;
+    height: 5rem;
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+label{
+    position: absolute;
+    display: inline-block;
+    width: 25rem;
+    height: 5rem;
+    line-height: 60px;
+    color: #ddd;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none; /* 鼠标无法选中 */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.add_wrap{
+    position: relative;
+    float: right;
+    width: 55rem;
+    height: 5rem;
+    box-sizing: border-box;
+}
+.add{
+    position: absolute;
+    right: -0.5rem;
+    display: inline-block;
+    width: 10rem;
+    height: 38px;
+    padding: 5px;
+    top: 11px;
+    border: none;
+    outline: none;
+    background: #f60;
+    border-color: #f60;
+    color: #fff;
+    border-radius: 0 6px 6px 0; 
+    font-size: 2rem;
+}
+#title{
+    box-sizing: border-box;
+    position: absolute;
+    user-select: none;
+    top: 12px;
+    width: 100%;
+    height: 36px;
+    border-radius: 6px; 
+    text-indent: 12px;/* 输入框字符位置偏移10rem */ 
+    left: 0;
+    border:none;
+    box-shadow: 0 0.1rem 0 rgba(255, 255, 255, 0.24), 0 0.1rem 0.6rem rgba(0, 0, 0, 0.45) inset;
+}
+
+input:focus {
+    outline: 0
+}
+
+ul{
+    margin-top: 10px;
+}
+
+li{
+    font-size: 1.6rem;
+    position: relative;
+    width: 80rem;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    margin-bottom: 12px;
+    border-left: 6px solid #629A9C;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+li input{
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+}
+
+li a {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:8px double white;
+    background: #CCC;
+    cursor: pointer;
+}
+li a:hover{
+    background-color: red;
+}
+li p{
+    text-indent: 50px;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color:#666;
+}
